@@ -8,7 +8,7 @@ seq_len = 30
 categories = 8
 X = np.zeros((nb_of_samples,seq_len))
 Y = np.zeros((nb_of_samples,categories))
-with open("document.txt") as f:
+with open("trainingdata.txt") as f:
     i = 0
     for line in f:
         num = int(line[0])
