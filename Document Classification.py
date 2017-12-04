@@ -1,7 +1,6 @@
 # problem from https://www.hackerrank.com/challenges/document-classification/problem
 # data can be downloaded from https://s3.amazonaws.com/hr-testcases/597/assets/trainingdata.txt
 import numpy as np
-import tflearn
 np.random.seed(1)
 nb_of_samples = 5485
 seq_len = 30
