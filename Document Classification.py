@@ -1,7 +1,5 @@
 # problem from https://www.hackerrank.com/challenges/document-classification/problem
 # data can be downloaded from https://s3.amazonaws.com/hr-testcases/597/assets/trainingdata.txt
-# December 2017 by Shuming Fang. 
-# fangshuming519@gmail.com.
 # https://github.com/FonzieTree
 import numpy as np
 np.random.seed(1)
